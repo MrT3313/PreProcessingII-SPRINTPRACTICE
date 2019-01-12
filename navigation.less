@@ -1,0 +1,45 @@
+// Navigation Styles here
+
+.nav {
+    .borderBottom;
+
+    .text-content {
+        display: flex;
+        align-items: center;
+    
+        .navItems {
+            display: flex;
+            flex-grow: 1;
+            justify-content: flex-end;
+
+            a {
+                text-decoration: none;
+                font-size: 1.6rem;
+                margin-left: 20px;
+                font: inherit;
+                color: #C0C0C0;
+            }
+        }
+
+    }
+
+    @media @phone {
+        .text-content {
+            color: blue;
+            flex-direction: column;
+
+            .navItems {
+                justify-content: space-around;
+                width: 80%;
+                margin: 0 auto;
+
+                a {
+                    margin: 0px;
+                }
+            }
+        } 
+    }
+}
+
+
+

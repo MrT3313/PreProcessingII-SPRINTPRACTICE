@@ -1,0 +1,25 @@
+// Mixins in here
+
+.border(@border-TYPE) {
+    @border-TYPE: 2px dashed @navigation-border;
+}
+
+.borderTop {
+    border-top: 2px dashed @navigation-border;
+}
+
+.borderBottom {
+    border-bottom: 2px dashed @navigation-border;
+}
+
+.button(@display; @height; @color; @background; @borderRadius) {
+    display: @display;
+    height: @height; 
+    color: @color;
+    background: @background;
+    border-radius: @borderRadius;
+
+    align-items: center;
+    justify-content: center;
+
+}
